@@ -34,8 +34,8 @@ import {
 } from 'lucide-react';
 
 // URL вашего запущенного Django REST API
-const API_BASE_URL = 'http://127.0.0.1:8000/api/v1';
-const DJANGO_SERVER_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://sladkiy-mir-backend.onrender.com/api/v1';
+const DJANGO_SERVER_URL = 'https://sladkiy-mir-backend.onrender.com';
 
 // Вспомогательная функция для формирования корректного URL картинки
 const getImageUrl = (imagePath) => {
